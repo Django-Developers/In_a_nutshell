@@ -1,0 +1,106 @@
+Review back end dev
+
+
+- **Django**
+   - Commons 
+       - What is
+       - CLI commands
+       - supported DBs?? 
+       - Stuff I don't remember for now 
+   - Basics
+       - setting
+       - urls
+       - admin
+           - register model
+           - add tabular/stacked inlines 
+           - add widgets 
+       - models
+           - field types
+           - save() 
+           - __ str __()
+       - views
+         - Method views 
+         - Class views 
+             - base view
+             - generic views
+             - mixins
+         - response types
+         - request methods
+         - request.file 
+         - Template
+             - Tags
+             - filters
+             - custom tag 
+             - inheritance in templates {%include %} 
+   - Intermediates
+       - Permission
+          - Adding permission to views 
+          - custom permission 
+       - Signal
+           - model signals
+           - request signals
+           - custom signals
+           - signal mixins
+       - Caching 
+           - cache database 
+               - redis 
+               - mongodb
+               - use django to create cache tables
+           - template cache
+           - view cache
+           - query caching (query optimization/population) 
+           - cache timeout
+           - event based cache 
+           - Sessions 
+           - Cookie 🥠 
+       - Middlewares
+           - Custom middleware
+       - Customize admin
+           - adding search field
+           - adding filter
+           - Theme
+           - Adding roles??? 
+   - In Depth
+       - Tests
+           - Model mock up 
+           - request methods 
+   - Advanced
+       - Web socket 
+       - Query Optimization 
+
+
+- **API frameworks**
+    - DRF
+    - Fastapi
+    - graphQL 
+
+- **Services**
+  - To review
+    - GeoDjango
+    - Celery
+    - Rabbitmq
+    - Nginx
+    - Docker
+    - Swagger
+ - To learn
+    - Kubernetes
+    - GraphQL 
+- **Linux** 
+    - Basics
+    - Intermediates 
+    - Advanced 
+- **Python** *(Later)*
+    - basic stuff 🧐 
+    - Intermediates 
+    - Advanced 
+- **Abbreviations**
+    - PEP
+    - DRY
+    - SOLID
+    - OOP
+    - MVC 
+    - MVT
+    - CLI
+    - API
+    - Rest
+    - TDD
