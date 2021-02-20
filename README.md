@@ -1,4 +1,4 @@
-Review back end dev
+# Review back end dev
 
 
 - **Django**
@@ -8,40 +8,44 @@ Review back end dev
        - supported DBs?? 
        - Stuff I don't remember for now 
    - Basics
-       - setting
-       - urls
-       - admin
+       - setting (نوید) 
+       - urls (فاطمه ) 
+       - admin (فاطمه) 
            - register model
            - add tabular/stacked inlines 
            - add widgets 
-       - models
+       - models (نیلوفر ) 
            - field types
            - save() 
            - __ str __()
        - views
-         - Method views 
-         - Class views 
+         - Method views (فاطمه) 
+         - Class views (فاطمه) 
              - base view
              - generic views
              - mixins
-         - response types
-         - request methods
-         - request.file 
-         - Template
+         - response types ( وحید) 
+         - request methods (وحید)
+         - request.file - Django file system (وحید)
+         - Template (عادل) 
              - Tags
              - filters
              - custom tag 
              - inheritance in templates {%include %} 
+         - Querying (عادل و فاطمه) 
+             - select_related
+             - Prefetch_select
+             - query set
    - Intermediates
-       - Permission
+       - Permission (علیرضا) 
           - Adding permission to views 
           - custom permission 
-       - Signal
+       - Signal (علیرضا ) 
            - model signals
            - request signals
            - custom signals
            - signal mixins
-       - Caching 
+       - Caching (وحید و نوید) 
            - cache database 
                - redis 
                - mongodb
@@ -51,35 +55,35 @@ Review back end dev
            - query caching (query optimization/population) 
            - cache timeout
            - event based cache 
-           - Sessions 
+           - Sessions (هم فکری) 
            - Cookie 🥠 
-       - Middlewares
+       - Middlewares (نیلوفر) 
            - Custom middleware
-       - Customize admin
+       - Customize admin (نیلوفر ) 
            - adding search field
            - adding filter
            - Theme
            - Adding roles??? 
    - In Depth
-       - Tests
+       - Tests (فاطمه) 
            - Model mock up 
            - request methods 
    - Advanced
-       - Web socket 
+       - Web socket (؟؟؟) 
        - Query Optimization 
 
 
 - **API frameworks**
-    - DRF
+    - DRF  ^  (وحید - عادل) 
     - Fastapi
-    - graphQL 
+    - graphQL ^ (نوید) ‌
 
 - **Services**
   - To review
     - GeoDjango
     - Celery
     - Rabbitmq
-    - Nginx
+    - Nginx 
     - Docker
     - Swagger
  - To learn
